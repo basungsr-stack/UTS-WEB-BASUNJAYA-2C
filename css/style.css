@@ -1,0 +1,15 @@
+:root { --aksen: #1f4fd8; }
+body { font-family: "DM Sans", system-ui, sans-serif; }
+h1, h2, h3, h4, .brand { font-family: "Bricolage Grotesque", "DM Sans", sans-serif; letter-spacing: -0.02em; }
+.hero h1 { max-width: 16ch; }
+.hero-img { max-width: 260px; box-shadow: 14px 14px 0 rgba(31, 79, 216, .18); }
+.skills li { padding: .5rem 0; border-bottom: 1px solid var(--bs-border-color); }
+.card { overflow: hidden; transition: transform .2s ease; }
+.card:hover { transform: translateY(-4px); }
+.result-card { border: 2px solid var(--aksen); }
+.btn-primary { --bs-btn-bg: var(--aksen); --bs-btn-border-color: var(--aksen); --bs-btn-hover-bg: #173bab; --bs-btn-hover-border-color: #173bab; }
+.btn-outline-primary { --bs-btn-color: var(--aksen); --bs-btn-border-color: var(--aksen); --bs-btn-hover-bg: var(--aksen); }
+[data-bs-theme="dark"] .btn-outline-primary { --bs-btn-color: #8fa8ff; --bs-btn-border-color: #8fa8ff; }
+[data-bs-theme="dark"] .result-card { border-color: #8fa8ff; }
+section[id] { scroll-margin-top: 70px; }
+@media (prefers-reduced-motion: reduce) { .card { transition: none; } .card:hover { transform: none; } }

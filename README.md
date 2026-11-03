@@ -2,7 +2,8 @@
 
 Portofolio interaktif **Basunjaya Pradipa Munasir** (UI/UX Designer) untuk UTS Pemrograman Web, Universitas Nusantara PGRI Kediri.
 
-**Live (GitHub Pages):** https://USERNAME.github.io/UTS-WEB-BASUNJAYA-PRADIPA-MUNASIR/
+**Live (GitHub Pages):** https://basungsr-stack.github.io/UTS-WEB-BASUNJAYA-2C/
+
 
 ## Fitur
 - HTML5 semantik: header, nav, main, section, article, aside, footer
